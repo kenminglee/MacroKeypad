@@ -11,7 +11,7 @@ Here are some really cool real-life applications:
 
 * Want to open a specific file/program with a single click? You can do that with a macro keypad
 * Want to have a very complicated password that you dont have to remember? With a macro keypad, you can assign one key (or more!) to         input your passwords for you! Press one key, and there you go - your entire password typed out for you!
-* Completely plug and play! No need for any softwares to slow down your computer, and you can use it on any device (with a usb port)!
+* Completely plug and play! No need for any softwares to slow down your computer, and you can use it on any device with a usb port!
 
 #### Why make your own custom macro keypad?
 * Its **fully customizable** !! You literally choose how many keys you want to have, what colour, what type of switches, whether you want full RGB or not etc etc - you get the point

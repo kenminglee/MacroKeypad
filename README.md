@@ -1,2 +1,4 @@
 # MacroKeypad
-A 4-keyed macro keypad built from scratch (and an Arduino Uno)
+##An in depth tutorial on how to make a custom built macro keypad from scratch using an Arduino Uno
+
+

@@ -1,5 +1,4 @@
-//Clean version V3.2
-//Added functionality for 4 keys
+//Clean version (no comments)
 uint8_t buf[8] = {0};
 #define Button_A A0
 #define Button_B A1
@@ -109,7 +108,7 @@ void loop() {
 
   if(digitalRead(Button_C)==LOW&&digitalRead(Button_A)!=LOW){
     if(pState_C==false&&(releasedTimer_C>releaseMinTime)){
-      buf[2]=29;//press z
+      buf[4]=6;//press c
       Serial.write(buf,8);  
       pState_C=true;
       releasedTimer_C=0;
@@ -119,7 +118,7 @@ void loop() {
 
   if(digitalRead(Button_C)!=LOW){
     if(pState_C==true&&(pressTimer_C>pressMinTime)){
-      releaseKey(2);
+      releaseKey(4);
       pState_C=false;
       pressTimer_C=0;
     }
@@ -136,7 +135,7 @@ void loop() {
 
   if(digitalRead(Button_D)==LOW&&digitalRead(Button_B)!=LOW){
     if(pState_D==false&&(releasedTimer_D>releaseMinTime)){
-      buf[3]=27;//press x
+      buf[5]=25;//press v
       Serial.write(buf,8);  
       pState_D=true;
       releasedTimer_D=0;
@@ -146,7 +145,7 @@ void loop() {
 
   if(digitalRead(Button_D)!=LOW){
     if(pState_D==true&&(pressTimer_D>pressMinTime)){
-      releaseKey(3);
+      releaseKey(5);
       pState_D=false;
       pressTimer_D=0;
       
